@@ -1,0 +1,29 @@
+If temp is greater than 30
+    It's a hot display
+    Drink plenty of water
+Otherwise, if it's between 20 and 30
+    It's a nice day
+Otherwise
+    It's cold
+
+
+import java.util.Scanner;
+
+public class App {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        while (true) {
+            System.out.print("Temperature: ");
+            int temp = scanner.nextInt();
+            if (temp > 30) {
+                System.out.println("It's a hot day\nDrink plenty of water");
+            }
+            else if (temp > 20)
+                System.out.println("It's a nice day");
+            else
+                System.out.println("It's cold");
+        }
+    }
+}
