@@ -6,6 +6,7 @@ My Java learning journey — projects, experiments, and growth.
 - **learning** – Notes, examples, and practice code.
 - **builds** – Java projects, including:
   - **miniprojects** – Small, focused builds.
+- **school-stuff** – Assignments, and practice code.
 
 ---
 A space to learn, build, and grow.
